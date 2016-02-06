@@ -1,4 +1,4 @@
-%	extitaTeX resume using res.cls
+% LaTeX resume using res.cls
 \documentclass[line,margin]{res} 
 %\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
 %\usepackage{newcent}   % uses new century schoolbook postscript font 
@@ -8,7 +8,7 @@
 \begin{document}
 
 \name{Jos\'e Hiram Soltren}
-% \address used twice to have two	extitines of address
+% \address used twice to have two lines of address
 \address{1201 West Park Street, Cedar Park, TX 78613-2801}
 \address{\ding{41}\href{mailto:jsoltren@alum.mit.edu}{jsoltren@alum.mit.edu}
          \ding{38}(347) 503-9558
@@ -24,7 +24,7 @@ Linux, kernel development, device drivers, computer graphics, firmware,\\
 video decoding, end user software, and systems administration.\\
 Additional specialties: automotive, aviation, machining, CAD, CAM, cycling.
  
-% \sl will be bold italic in New Century Schoolbook (or
+% \textit will be bold italic in New Century Schoolbook (or
 % any postscript font) and just slanted in
 % Computer Modern (default) font
  
@@ -32,7 +32,7 @@ Additional specialties: automotive, aviation, machining, CAD, CAM, cycling.
 
 \textbf{Massachusetts Institute of Technology, Cambridge, MA} \\
 \\
-{\sl Master of Engineering,} Electrical Engineering and Computer Science
+\textit{Master of Engineering,} Electrical Engineering and Computer Science
 \hfill Aug 2009
 \begin{itemize}  \itemsep -2pt % reduce space between items
 \item Course work in operating systems, biomedical informatics, network
@@ -40,7 +40,7 @@ Additional specialties: automotive, aviation, machining, CAD, CAM, cycling.
 \item Wrote thesis on using Semantic Web technologies to determine privacy
       policy compliance of database queries using a rules-based reasoner.
 \end{itemize} 
-{\sl Bachelor of Science,} Electrical Engineering and Computer Science
+\textit{Bachelor of Science,} Electrical Engineering and Computer Science
 \hfill Jun 2007
 \begin{itemize}  \itemsep -2pt % reduce space between items
 \item Minor in Science, Technology, and Society.
@@ -48,17 +48,17 @@ Additional specialties: automotive, aviation, machining, CAD, CAM, cycling.
 
 \section{EXPERIENCE}
 \textbf{Senior System Software Engineer} \\
-NVIDIA Corporation, Santa Clara, CA and Austin, TX \hfill May 2011 - present
+NVIDIA Corporation, Santa Clara, CA and Austin, TX \hfill May 2011 - present\\
 \begin{itemize}  \itemsep -2pt % reduce space between items
 \item Member of elite team responsible for the proprietary NVIDIA graphics
-      driver stack for	extitinux, FreeBSD, and Solaris.
-\item Technical	extitead - Video Decode and Post-Processing API for UNIX (VDPAU).
+      driver stack for Linux, FreeBSD, and Solaris.
+\item Technical lead - Video Decode and Post-Processing API for UNIX (VDPAU).
 \item Ported VDPAU to a brand new video decoder architecture.
 \item Added support for next generation H.265/HEVC hardware video decode to
-      the	extitinux driver and to VDPAU.
+      the Linux driver and to VDPAU.
       \url{https://github.com/NVIDIA/vdpau-hevc-example}
 \item Participate in hardware architectural reviews for video decoding hardware.
-\item Responsible for video post processing shaders in Cg and GLSL	extitanguages.
+\item Responsible for video post processing shaders in Cg and GLSL languages.
 \item Expertise in OpenGL multithreading, graphics pipeline configuration,
       rendering state.
 \item Key member of new hardware bringup process:
@@ -69,19 +69,19 @@ NVIDIA Corporation, Santa Clara, CA and Austin, TX \hfill May 2011 - present
     \item Execution of test programs on early silicon in first days of bringup
     \end{itemize}
 \item Debug and fix critical stop-ship issues related to video decoding on GPUs.
-\item {\sl Technologies used: C, C++, Python, Makefile; gcc, gdb,	extitinux kernel,
-       NVIDIA GPUs, OpenGL, firmware/microcodes.}
+\item \textit{Technologies used: C, C++, Python, Makefile; gcc, gdb, Linux
+              kernel, NVIDIA GPUs, OpenGL, firmware/microcodes.}
 \end{itemize}
  
-\section{COMPUTER \\ SKILLS} {\sl	extitanguages \& Software:} COBOL, IFPS, Focus, 
+\section{COMPUTER \\ SKILLS} {\textit Languages \& Software:} COBOL, IFPS, Focus, 
          Megacalc, Pascal, Modula2, C, APL, SNOBOL, 
-                FORTRAN,	extitISP, SPIRES, BASIC, VSPC Autotab, 
-                IBM 370 Assembler,	extitotus 1-2-3. \\
-                {\sl Operating Systems:} MTS, TSO, Unix.
+                FORTRAN, LISP, SPIRES, BASIC, VSPC Autotab, 
+                IBM 370 Assembler, Lotus 1-2-3. \\
+                {\textit Operating Systems:} MTS, TSO, Unix.
  
-\section{EXPERIENCE} {\sl Business Applications Programmer} \hfill Fall 1990 \\
+\section{EXPERIENCE} {\textit Business Applications Programmer} \hfill Fall 1990 \\
                 Allied-Signal Bendix Friction Materials Division, 
-                Financial Planning Department,	extitatham, NY
+                Financial Planning Department, Latham, NY
                  \begin{itemize}  \itemsep -2pt % reduce space between items
                  \item Developed four "user friendly" forecasting 
                     systems each of which produces 18 to 139 
@@ -90,14 +90,14 @@ NVIDIA Corporation, Santa Clara, CA and Austin, TX \hfill May 2011 - present
                     programs used for financial reports. 
                 \end{itemize}
  
-                {\sl Research Programmer} \hfill            Summer 1990 \\
+                {\textit Research Programmer} \hfill            Summer 1990 \\
                 Psychology Department, Rensselaer Polytechnic 
                 Institute 
                  \begin{itemize}  \itemsep -2pt %reduce space between items
                  \item Performed computer aided statistical analysis 
                     of data. 
                  \end{itemize} 
-                {\sl Assistant Manager} \hfill        Summers 1988-89 \\
+                {\textit Assistant Manager} \hfill        Summers 1988-89 \\
                 Thunder Restaurant, Canton, CT
                   \begin{itemize}
                    \item Recognized need for, developed, and wrote 
@@ -114,7 +114,7 @@ NVIDIA Corporation, Santa Clara, CA and Austin, TX \hfill May 2011 - present
 \section{EXTRA-CURRICULAR \\ ACTIVITIES}             
             Elected {\it House Manager}, Rho Phi Sorority \\
             Elected {\it Sports Chairman} \\
-            Attended Krannet	extiteadership Conference \\
+            Attended Krannet Leadership Conference \\
                 Headed delegation to Rho Phi Congress \\
                 Junior varsity basketball team \\
                 Participant, seven intramural athletic teams 

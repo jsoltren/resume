@@ -1,0 +1,44 @@
+NVIDIA Corporation
+Senior System Software Engineer, Austin, TX, 2013-2016
+Linux Graphics Software Engineer, Santa Clara, CA 2011-2013
+
+Firmware and device driver development for resource management, 2D graphics, 3D graphics, and accelerated video decoding software for NVIDIA desktop and mobile GPUs on Linux and UNIX hosts.
+
+Technical lead for VDPAU, the accelerated hardware video decoder stack on Linux.
+
+Technical lead for H.265/HEVC video decoder format implementation on Linux. Added hardware accelerated H.265/HEVC video playback support to the NVIDIA Linux driver stac. Wrote a simple stream parser to play H.265/HEVC video and released it under an open source license.
+
+Worked with firmware, kernel, hardware, and ASIC engineers around the clock and around the world on FPGA Quickturn emulators to root cause and fix a critical, stop ship issue related to video decoding on Maxwell GPUs.
+
+Refactored the NVIDIA Linux video decode driver stack to add hardware support for Maxwell and Pascal GPUs. Worked with firmware, hardware, and ASIC engineers to sort out hardware differences from previous generations.
+
+Rewrote video shaders used in the video decode pipeline from Cg into GLSL, allowing the video shaders to move to a leaner, more efficient implementation using a new shader compiler.
+
+Served as company-wide expert and point person for H.264/AVC and H.265/HEVC format questions. Helped to set direction for video decoding hardware in future NVIDIA hardware products.
+
+Worked on the critical path for new hardware bringup. Designed and executed bringup tests for 2D and 3D graphics and video decoding. Worked to right-size and automate bringup testing, with a direct result of shortened test times and faster time to market. Ported these improvements to pre-silicon early validation tests to shorten delivery times for future hardware generations.
+
+Root caused and fixed a customer critical video decoding issue that would result in system hangs when decoding corrupted video streams. This bug, when fixed, enabled hospital patients to enjoy a first-class video playback experience on nearly end-of-lifed hardware.
+
+--
+
+Root caused and fixed a critical bug that would sometimes cause 3D driver initialization to fail. This bug, when fixed, unblocked content creation for a major motion picture studio.
+
+Discovered, root caused, and fixed a critical race condition bug that prevented the NVIDIA Linux driver from performing reliably with more than four GPUs in a system, by introducing a fine grained lock in a crucial code path. Fixing this bug made it possible to place multiple GPUs into one system, an important workflow for machine learning. In so doing, implemented a novel debugger that worked closely with the kernel to register hardware breakpoints after certain conditions were met.
+
+Worked closely with kernel engineers on hwsnoop, an in-system PCIe debugger. hwsnoop could, via PCI bus mastery, investigate the state of a halted CPU or GPU, so long as the system's memory controller remained active. Used hwsnoop to gather information on system crash type bugs that could not be investigated any other way.
+
+Did performance investigation and QA work targeting NVIDIA hardware and driver support for Google's ChromeOS.
+
+Through ad hoc testing and dogfooding, discovered a number of potential stop-ship issues that slipped by our QA teams. I often fixed them, even if they were outside my domain.
+
+Authored and maintained tools to help myself and other engineers with bug triage and bringup testing.
+
+Worked with customer facing QA teams to improve practices, leading to reduced engineering time spent on issues.
+
+Fixed multiple bugs in the NVIDIA Linux driver graphics stack related to performance, system reliability, video quality, and memory economy.
+
+Served as technical mentor to several engineers over the years. Mentees have gone on to make substantial contributions to OpenGL, Vulkan, X.org, and the Linux kernel.
+
+Technologies used: C, C++, OpenGL, Cg, GLSL, assembly (numerous variants), FPGA hardware emulation, Perforce, git
+

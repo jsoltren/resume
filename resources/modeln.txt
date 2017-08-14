@@ -1,0 +1,8 @@
+Model N, Inc.
+Member of Technical Staff, Redwood Shores, CA, 2009-2010
+
+Backend engineering work on Model N's revenue management software solution for the pharmaceutical and semiconductor verticals.
+
+Fixed numerous bugs and implemented numerous features in the areas of pricing, customers, commitments, contracts, and compliance.
+
+Technologies used: Java, WebSphere, JavaScript Perforce

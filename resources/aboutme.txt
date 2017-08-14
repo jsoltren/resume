@@ -1,35 +1,39 @@
 Who I Am::
 
-I’m a world class computer hardware and system software engineer.
-I have a proven track record of successes in personal and professional projects in this domain.
-I tend to focus on the backend and on fundamentals, but care deeply about the whole product.
-I believe in simplicity, elegance, and beauty at every level of engineering design.
-I believe software engineers have much to learn from aeronautical engineers.
-I believe in Net Neutrality and a right to privacy, and oppose censorship of non-hateful speech.
-I’m a lifelong computer and electronics nerd and taught myself BASIC and circuits at age eight.
-I’m Hispanic (Puerto Rican) and a New Yorker.
-I’m an alum of Stuyvesant and MIT, in both cases as one of the only Puerto Ricans.
-I’m a maker and a tinkerer.
-I’m a (student) pilot.
-I’m a husband and a father.
+\begin{itemize}
+\item I'm a world class computer hardware and system software engineer.
+\item I have a proven track record of successes in personal and professional projects in this domain.
+\item I tend to focus on the backend and on fundamentals, but care deeply about the whole product.
+\item I believe in simplicity, elegance, and beauty at every level of engineering design.
+\item I believe software engineers have much to learn from aeronautical engineers.
+\item I believe in Net Neutrality and a right to privacy, and oppose censorship of non-hateful speech.
+\item I taught myself BASIC and circuits at age eight (so fun!).
+\item I'm Hispanic (Puerto Rican) and a New Yorker.
+\item I'm an alumnus of Stuyvesant and MIT, in both cases as one of the only Puerto Ricans.
+\item I'm a maker, a tinkerer, and a (student) pilot.
+\item I'm a husband and a father.
+\end{itemize}
 
-What I’ve Done::
+What I've Done::
 
-I’ve worked on the core of Apache Spark at Cloudera, and have spoken publicly about my work.
-I’ve worked on the NVIDIA graphics driver for Linux, and owned the video decoder for a while.
-I’ve designed a new type of computer keyboard, shipped them, and sold over 1000.
-Along the way, I’ve solved thousands of problems and unblocked countless people.
+\begin{itemize}
+\item I've worked on the core of Apache Spark, and have spoken publicly about my work.
+\item I've worked on the NVIDIA Linx graphics driver, and owned the video decoder for a while.
+\item I've designed a new type of computer keyboard, shipped them, and sold over 1000 to date.
+\item Along the way, I've solved thousands of problems and unblocked countless people.
+\end{itemize}
 
-Everywhere I go, I decrease overhead, and add value and simplicity far above my pay grade.
+Everywhere I go, I decrease overhead, and add value and simplicity far above my pay grade.\\
 I leave things cleaner than I found them, whether or not they are mine to clean.
 
 What I Want To Do::
 
-Work on world-class problems with world-class people in a world-class environment.
-Continue to grow every day.
-Lead by example.
+\begin{itemize}
+\item Be a key teammate at a top-tier computer hardware firm.
+\item Work on world-class problems with world-class people in a world-class environment.
+\item Continue to grow every day.
+\item Lead by example.
+\end{itemize}
 
-
-Flip to the reverse side for more details on my current and former positions.
-Fit is more important than experience.
-
+Check my r\'esum\'e for more details on my current and former position(s).\\
+\emph{Fit is more important than experience.}

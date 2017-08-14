@@ -1,25 +1,23 @@
-% Cover letter using letter.sty
-\documentclass{letter} % Uses 10pt
+\documentclass[11pt]{letter}
 
 \usepackage{hyperref}
 \usepackage{pifont}
-%\usepackage{CJKutf8}
-%Use \documentstyle[newcent]{letter} for New Century Schoolbook postscript font
-% the following commands control the margins:
+
+% Layout control. These values assume 8.5x11 paper.
 \topmargin=-1in    % Make letterhead start about 1 inch from top of page
-\textheight=9in  % text height can be bigger for a longer letter
+\textheight=9in    % Text height can be bigger for a longer letter
 \oddsidemargin=0pt % leftmargin is 1 inch
 \textwidth=6.5in   % textwidth of 6.5in leaves 1 inch for right margin
 
 \begin{document}
-
-\signature{Jos\'e Hiram Soltren}           % name for signature
-\longindentation=0pt                       % needed to get closing flush left
-\let\raggedleft\raggedright                % needed to get date flush left
+\thispagestyle{empty} % No page number on the first page.
 
 
-\begin{letter}{
-}
+\signature{Jos\'e Hiram Soltren} % name for signature
+\longindentation=0pt             % needed to get closing flush left
+\let\raggedleft\raggedright      % needed to get date flush left
+
+\begin{letter}
 
 \begin{flushleft}
 {\LARGE\sffamily Jos\'e Hiram Soltren}
@@ -33,87 +31,9 @@
 \end{flushright}
 \vfill % forces letterhead to top of page
 
-
-\opening{Dear Hiring Managers:}
-
-%\noindent PARAGRAPH ONE: State reason for letter, name the position or type
-%of work you are applying for and identify source from  which  you
-%learned   of   the  opening.  (i.e.  Career  Development  Center,
-%newspaper, employment service, personal contact).
-
-Cloudera is at the forefront of distributed systems work in the cloud age.
-It seems like a great place to be.
-
-%\noindent PARAGRAPH  TWO:  Indicate why you are interested in the position,
-%the company, its products, services - above all, stress what  you
-%can  do  for  the employer. If you are a recent graduate, explain
-%how your academic background makes you a qualified candidate  for
-%the  position.  If  you have practical work experience, point out
-%specific achievements or unique qualifications. Try not to repeat
-%the  same  information  the reader will find in the resume. Refer
-%the reader to the enclosed resume or application which summarizes
-%your  qualifications,  training,  and experiences. The purpose of
-%this section is to strengthen your resume  by  providing  details
-%which bring your experiences to life.
-
-At present, I am a System Software Engineer at NVIDIA. I work on the Linux
-Graphics Driver with an emphasis on video decoding and post processing. My
-work is very close to the hardware. I work closely with hardware teams and
-architects as well as end users to ensure a great experience.
-
-On the surface, there would seem to be little crossover between driver work
-and work in Cloudera's problem space. I conjecture that there is very good
-alignment
-between the two. Both problem spaces concern themselves with parallelism,
-scheduling, determinism, scalability, and even power. Both rely on locking,
-atomicity, and concurrency to dispatch work. Both benefit from many layers
-of knowledge, down to the hardware. I believe that the lessons that I have
-learned from GPU driver work and elsewhere would be an excellent contribution
-to Cloudera's strategy.
-
-%\noindent PARAGRAPH THREE: Request a personal interview and  indicate  your
-%flexibility as to the time and place. Repeat your phone number in
-%the letter and offer assistance to help in a speedy response. For
-%example,  state that you will be in the city where the company is
-%located on a certain date and would like to set up an  interview.
-%Or,  state  that  you  will  call  on a certain date to set up an
-%interview. End the letter by thanking  the  employer  for  taking
-%time to consider your credentials.
-
-I am sending this cover letter and r\'esum\'e because I believe that
-growth, and particularly kaizen (
-%\begin{CJK}{UTF8}{min}改善\end{CJK},
-continuous improvement) are important. For Cloudera, this means hiring
-strong engineers from a variety of disciplines who can frame problems in
-novel ways leading to novel solutions. Personally, this means pursuing
-growth in new directions. The timing is good for me to consider my next
-move after nearly five years at NVIDIA.
-
-Michal Ostrowski is a friend who encouraged me to submit this application.
-He should be considered a referrer. I've also been in contact with
-Philip Langdale through my work on the VDPAU stack at NVIDIA. Philip and
-Michal, as it happens, have worked together for some time. Both have
-encouraged me to submit this application.
-
-If there is a potential for a good fit, I hope to speak with you further.
-At present, I am located in the Austin, TX region and am unable to relocate.
-(Though, an occasional visit to Palo Alto is welcome.)
+\input{resources/aboutme.txt}
 
 Thank you for your consideration.
 
-\closing{Sincerely yours,}
-
-
-
-\encl{Current r\'esum\'e}  				% Enclosures
-
 \end{letter}
-
-
 \end{document}
-
-
-
-
-
-

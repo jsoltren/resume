@@ -1,18 +1,29 @@
-Cloudera, Inc.
-Software Engineer, Austin, TX, 2016-2017
+\textbf{Software Engineer} \\
+Cloudera, Inc., Austin, TX (work from home) \hfill 2016-2017
 
-Engineering development work on Apache Spark, a distributed computation platform with fault tolerance billed as the successor to MapReduce.
+\begin{itemize} \itemsep -2pt
 
-Worked on fault tolerance and reliability in Spark core code by working with colleagues to implement a blacklisting mechanism for faulty compute resources. Delivered a talk about this work at the Spark Summit in Boston, February 2017.
+\item Engineering development work on Apache Spark, a distributed computation
+      platform with fault tolerance billed as the successor to MapReduce.
 
-Designed an addition to Apache Spark that would allow compute resources to report on memory utilization in real time.
+\item Worked on fault tolerance and reliability in Spark core code by working
+      with colleagues to implement a blacklisting mechanism for faulty compute
+      resources. Delivered a talk about this work at the Spark Summit in Boston,
+      February 2017. TODO: Insert URL.
 
-Worked with several teams to scope work needed to support hardware accelerators as first class citizens at deployment and execution time in Apache Spark.
+\item Designed an addition to Apache Spark that would allow compute resources to
+      report on memory utilization in real time.
 
-Worked with QA teams to design, implement, and adopt an internal fault injection framework for endurance and vulnerability testing on Apache Spark.
+\item Worked with several teams to scope work needed to support hardware
+      accelerators as first class citizens at deployment and execution time
+      in Apache Spark.
 
-Fixed bugs and implemented features in Apache Spark.
+\item Worked with QA teams to design, implement, and adopt an internal fault
+      injection framework for endurance and vulnerability testing on Apache Spark.
 
-Worked to fix customer escalations.
+\item Fixed bugs and implemented features in Apache Spark. Worked on
+      customer escalations.
 
-Technologies used: Spark, Scala, Java, JVM, Python, Jenkins, git
+\item \textit{Technologies used: Spark, Scala, Java, JVM, Python, Jenkins, git}
+
+\end{itemize}

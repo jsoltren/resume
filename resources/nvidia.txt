@@ -13,7 +13,7 @@ NVIDIA Corporation, Santa Clara, CA and Austin, TX \hfill 2011-2016
 
 \item Refactored the NVIDIA Linux video decode driver stack to add hardware support for Maxwell and Pascal GPUs. Worked with firmware, hardware, and ASIC engineers to sort out hardware differences from previous generations.
 
-\item Rewrote video shaders used in the video decode pipeline from Cg into GLSL, allowing the video shaders to move to a leaner, more efficient implementation using a new shader compiler.
+\item Rewrote video shaders used in the video decode pipeline from Cg into GLSL, allowing the video shaders to move to a leaner implementation using a new shader compiler.
 
 \item Served as company-wide expert and point person for H.264 (AVC) and H.265 (HEVC) format questions. Helped to set direction for video decoding hardware in future NVIDIA hardware products.
 
@@ -30,7 +30,7 @@ NVIDIA Corporation, Santa Clara, CA and Austin, TX \hfill 2011-2016
 
 \item Did performance investigation and QA work targeting NVIDIA hardware and driver support for Google's ChromeOS.
 
-\item Through ad hoc testing and dogfooding, discovered a number of potential stop-ship issues that slipped by our QA teams. I often fixed them, even if they were outside my domain.
+\item Discovered a number of potential stop-ship issues that slipped by our QA teams. Fixed them even if they were outside my domain.
 
 \item Authored and maintained tools to help myself and other engineers with bug triage and bringup testing.
 

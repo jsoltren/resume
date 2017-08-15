@@ -8,8 +8,7 @@ Cloudera, Inc., Austin, TX (work from home) \hfill 2016-2017
 
 \item Worked on fault tolerance and reliability in Spark core code by working
       with colleagues to implement a blacklisting mechanism for faulty compute
-      resources. Delivered a talk about this work at the Spark Summit in Boston,
-      February 2017. TODO: Insert URL.
+      resources.
 
 \item Designed an addition to Apache Spark that would allow compute resources to
       report on memory utilization in real time.
@@ -21,7 +20,7 @@ Cloudera, Inc., Austin, TX (work from home) \hfill 2016-2017
 \item Worked with QA teams to design, implement, and adopt an internal fault
       injection framework for endurance and vulnerability testing on Apache Spark.
 
-\item Fixed bugs and implemented features in Apache Spark. Worked on
+\item Bug and feature work in Apache Spark. Worked on
       customer escalations.
 
 \item \textit{Technologies used: Spark, Scala, Java, JVM, Python, Jenkins, git}

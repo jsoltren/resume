@@ -1,5 +1,5 @@
-\textbf{Software Engineer} \\
-Cloudera, Inc., Austin, TX (work from home) \hfill 2016-2017
+\textbf{Software Engineer}\\
+ Cloudera, Inc., Austin, TX (work from home) \hfill 2016-2017
 
 \begin{itemize} \itemsep -2pt
 

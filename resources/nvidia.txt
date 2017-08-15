@@ -1,4 +1,4 @@
-\textbf{Senior System Software Engineer} \\
+\textbf{Senior System Software Engineer}\\
 NVIDIA Corporation, Santa Clara, CA and Austin, TX \hfill 2011-2016
 
 \begin{itemize} \itemsep -2pt
@@ -29,7 +29,7 @@ NVIDIA Corporation, Santa Clara, CA and Austin, TX \hfill 2011-2016
 
 { \sffamily Jos\'e Hiram Soltren} \\ 
 
-\section{Experience, cont'd}
+\section{Experience, continued}
 
 
 \begin{itemize} \itemsep -2pt

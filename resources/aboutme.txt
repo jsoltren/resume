@@ -18,7 +18,7 @@ What I've Done::
 
 \begin{itemize}
 \item I've worked on the core of Apache Spark, and have spoken publicly about my work.
-\item I've worked on the NVIDIA Linx graphics driver, and owned the video decoder for a while.
+\item I've worked on the NVIDIA Linux graphics driver, and owned the video decoder for a while.
 \item I've designed a new type of computer keyboard, shipped them, and sold over 1000 to date.
 \item Along the way, I've solved thousands of problems and unblocked countless people.
 \end{itemize}

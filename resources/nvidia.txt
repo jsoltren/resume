@@ -1,5 +1,5 @@
 \textbf{Senior System Software Engineer}
-NVIDIA Corporation, Santa Clara, CA and Austin, TX, 2011-2016
+NVIDIA Corporation, Santa Clara, CA and Austin, TX \hfill 2011-2016
 
 \begin{itemize} \itemsep -2pt
 

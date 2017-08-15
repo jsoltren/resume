@@ -1,8 +1,12 @@
-Model N, Inc.
-Member of Technical Staff, Redwood Shores, CA, 2009-2010
+\textbf{Member of Technical Staff}
+Model N, Inc., Redwood Shores, CA \hfill 2009-2010
 
-Backend engineering work on Model N's revenue management software solution for the pharmaceutical and semiconductor verticals.
+\begin{itemize}  \itemsep -2pt % reduce space between items
 
-Fixed numerous bugs and implemented numerous features in the areas of pricing, customers, commitments, contracts, and compliance.
+\item Backend and UI engineering work on Model N's revenue management software solution for the pharmaceutical and semiconductor verticals.
 
-Technologies used: Java, WebSphere, JavaScript Perforce
+\item Fixed numerous bugs and implemented numerous features in the areas of pricing, customers, commitments, contracts, and compliance.
+
+\item \textit{Technologies used: Java, Oracle SQL, WebSphere, JavaScript, Perforce}
+
+\end{itemize}

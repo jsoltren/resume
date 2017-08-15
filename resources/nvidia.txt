@@ -40,7 +40,7 @@ NVIDIA Corporation, Santa Clara, CA and Austin, TX \hfill 2011-2016
 
 \item Discovered, root caused, and fixed a critical race condition bug that prevented the NVIDIA Linux driver from performing reliably with more than four GPUs in a system, by introducing a fine grained lock in a crucial code path. Fixing this bug made it possible to place multiple GPUs into one system, an important workflow for machine learning. In so doing, implemented a novel debugger that worked closely with the kernel to register hardware breakpoints after certain conditions were met.
 
-\item Worked closely with kernel engineers on hwsnoop, an in-system PCIe debugger. hwsnoop could, via PCI bus mastery, investigate the state of a halted CPU or GPU, so long as the system's memory controller remained active. Used hwsnoop to gather information on system crash type bugs that could not be investigated any other way.
+\item Worked closely with kernel engineers on hwsnoop, an in-system PCIe debugger. It could, via PCI bus mastery, investigate the state of a halted CPU or GPU, so long as the system's memory controller remained active. Used hwsnoop to gather information on system crash type bugs that could not be investigated any other way.
 
 \item Performance and QA work for hardware and driver support on Google's ChromeOS.
 

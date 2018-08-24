@@ -1,0 +1,27 @@
+\textbf{Software Engineer}\\
+ Intel Corporation, Austin, TX (work from home) \hfill 2017-
+
+\begin{itemize} \itemsep -2pt
+
+\item Software development work on Intel's Nervana Neural Network
+      Processor (NNP) in the Artificial Intelligence Product Group
+      (AIPG).
+
+\item Focus on NNP work to accelerate deep learning model training
+      using a dedicated hardware accelerator for mathematical
+      operations.
+
+\item Software and API architectural design and development for
+      current and future NNP generation hardware.
+
+\item Focus on multiple chip workloads and topologies.
+
+\item Software implementation and bug fixing for various AI
+      workloads.
+
+\item Performance estimation for workloads on current and future
+      hardware.
+
+\item \textit{Technologies used: C++11}
+
+\end{itemize}

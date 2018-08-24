@@ -7,7 +7,7 @@ NVIDIA Corporation, Santa Clara, CA and Austin, TX \hfill 2011-2016
 
 \item Technical lead for VDPAU, the accelerated hardware video decoder stack on Linux.
 
-\item Technical lead for H.265/HEVC video decoder format implementation on Linux. Added hardware accelerated H.265/HEVC video playback support to the NVIDIA Linux driver stack. Wrote a simple stream parser to play H.265/HEVC video and released it under an open source license. \url{https://github.com/NVIDIA/vdpau-hevc-example}
+\item Technical lead for H.265/HEVC video decoder format implementation on Linux. Added hardware accelerated H.265/HEVC video playback support to the NVIDIA Linux driver stack. Wrote \url{https://github.com/NVIDIA/vdpau-hevc-example}, a simple stream parser to play H.265/HEVC video released under an open source license.
 
 \item Worked with firmware, kernel, hardware, and ASIC engineers around the clock and around the world on FPGA Quickturn emulators to root cause and fix a critical, stop ship issue related to video decoding on Maxwell GPUs.
 
@@ -18,7 +18,7 @@ NVIDIA Corporation, Santa Clara, CA and Austin, TX \hfill 2011-2016
 \newpage
 % There should be a page break here.
 
-{ \sffamily Jos\'e Hiram Soltren} \\ 
+{ \sffamily Jos\'e Hiram Soltren} \\
 
 \section{Experience, continued}
 

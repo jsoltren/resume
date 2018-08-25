@@ -1,25 +1,26 @@
 Who I Am::
 
 \begin{itemize}
-\item I'm a world class computer hardware and system software engineer.
+\item I'm a software engineer focusing on low level system software.
 \item I have a proven track record of successes in personal and professional projects in this domain.
 \item I tend to focus on the backend and on fundamentals, but care deeply about the whole product.
 \item I believe in simplicity, elegance, and beauty at every level of engineering design.
 \item I believe software engineers have much to learn from aeronautical engineers.
 \item I believe in Net Neutrality and a right to privacy, and oppose censorship of non-hateful speech.
+\item I believe that worrying about job titles makes us lose sight of the real problems to be  solved.
 \item I taught myself BASIC and circuits at age eight (so fun!).
 \item I'm Hispanic (Puerto Rican) and a New Yorker.
 \item I'm an alumnus of Stuyvesant and MIT, in both cases as one of the only Puerto Ricans.
-\item I'm a maker, a tinkerer, and a (student) pilot.
-\item I'm a husband and a father.
+\item I'm a maker, a tinkerer, a hacker, a (student) pilot, a husband and a father.
 \end{itemize}
 
 What I've Done::
 
 \begin{itemize}
+\item I'm tackling our most challenging scaling problems at Intel AI.
 \item I've worked on the core of Apache Spark, and have spoken publicly about my work.
 \item I've worked on the NVIDIA Linux graphics driver, and owned the video decoder for a while.
-\item I've designed a new type of computer keyboard, shipped them, and sold over 1000 to date.
+\item I've designed a new type of computer keyboard, shipped them, and sold over 1200 to date.
 \item Along the way, I've solved thousands of problems and unblocked countless people.
 \end{itemize}
 

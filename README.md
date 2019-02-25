@@ -5,7 +5,7 @@ Based on res.cls, originally by Michael DeCorte.
 This is a "quick and dirty" resume implementation in LaTeX. To build, do:
 
 ```
-$ pmake
+$ make
 ```
 
 For convenience, recently generated PDFs are included in the repository.

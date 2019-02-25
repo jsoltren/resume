@@ -1,5 +1,5 @@
-\textbf{Software Engineer}\\
- Intel Corporation, Austin, TX (work from home) \hfill 2017-
+\textbf{Deep Learning Software Engineer}\\
+ Intel Corporation, Austin, TX (work from home) \hfill 2017-2019
 
 \begin{itemize} \itemsep -2pt
 
@@ -7,21 +7,18 @@
       Processor (NNP) in the Artificial Intelligence Product Group
       (AIPG).
 
-\item Focus on NNP work to accelerate deep learning model training
-      using a dedicated hardware accelerator for mathematical
-      operations.
+\item Hardware acceleration of deep learning model training.
 
 \item Software and API architectural design and development for
       current and future NNP generation hardware.
 
-\item Focus on multiple chip workloads and topologies.
+\item Focus on multiple chip workloads and topologies, data,
+      model, and kernel level parallelism, and concurrent
+      execution.
 
-\item Software implementation and bug fixing for various AI
-      workloads.
-
-\item Performance estimation for workloads on current and future
+\item Performance modeling for workloads on current and future
       hardware.
 
-\item \textit{Technologies used: C++11}
+\item \textit{Technologies used: C++11, C, pytest}
 
 \end{itemize}

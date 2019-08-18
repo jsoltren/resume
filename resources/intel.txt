@@ -8,17 +8,13 @@
       (AIPG).
 
 \item Hardware acceleration of deep learning model training.
+      Focus on multiple chip workloads and topologies, data,
+      model, and kernel level parallelism, concurrent
+      execution, algorithm design and performance modeling.
 
 \item Software and API architectural design and development for
-      current and future NNP generation hardware.
+      current and future neural network training hardware.
 
-\item Focus on multiple chip workloads and topologies, data,
-      model, and kernel level parallelism, and concurrent
-      execution.
-
-\item Performance modeling for workloads on current and future
-      hardware.
-
-\item \textit{Technologies used: C++11, C, pytest}
+\item \textit{Technologies used: C++11, C}
 
 \end{itemize}

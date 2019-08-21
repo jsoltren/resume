@@ -1,6 +1,5 @@
 % LaTeX resume using res.cls
 \documentclass[line,margin]{res}
-%\documentclass{res}
 %\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
 %\usepackage{newcent}   % uses new century schoolbook postscript font
 \usepackage{hyperref}
@@ -26,32 +25,24 @@
 
 \begin{resume}
 
-\section{Synopsis}
-System Software Engineer and MIT alum. \textbf{Ten years' experience}
-in various areas:\\
-Linux, kernel development, device drivers, computer graphics, firmware,\\
-video decoding, end user software, systems administration, Apache Spark.\\
-\emph{Additional specialties: aviation, machining, CAD/CAM, mechanical keyboards.}
-
-% \textit will be bold italic in New Century Schoolbook (or
-% any postscript font) and just slanted in
-% Computer Modern (default) font
-
+\input{resources/synopsys.tex}
 
 \section{Experience}
 
-\input{resources/intel.txt}
-\input{resources/cloudera.txt}
-\input{resources/nvidia.txt}
-\input{resources/modeln.txt}
-\input{resources/deshaw.txt}
+\input{resources/soltrenconsulting.tex}
+\input{resources/centaur.tex}
+\input{resources/intel.tex}
+\input{resources/cloudera.tex}
+\input{resources/nvidia.tex}
+\input{resources/modeln.tex}
+\input{resources/deshaw.tex}
 
 % There should be a page break here.
 %\newpage
 
 %{ \sffamily Jos\'e Hiram Soltren} \\
 
-%\input{resources/community.txt}
+%\input{resources/community.tex}
 
 
 
@@ -62,11 +53,9 @@ video decoding, end user software, systems administration, Apache Spark.\\
 %Metal and machine work.
 
 \input{resources/education.tex}
+\input{resources/highschool.tex}
 
-\section{Languages}
-Fluent in: English, Spanish, C.\\
-Proficient in: OpenGL, Java, JavaScript, R, C++, Scheme, Perl, Python, PHP,\\
-\mbox{MATLAB}, Cg, GLSL, CUDA.
+\input{resources/languages.tex}
 
 \section{Citizenship}
 United States

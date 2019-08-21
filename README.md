@@ -5,7 +5,7 @@ Based on res.cls, originally by Michael DeCorte.
 To build, do:
 
 ```
-$ make all
+$ make
 ```
 
 For convenience, recently generated PDFs are included in the repository.

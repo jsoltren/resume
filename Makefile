@@ -1,9 +1,14 @@
 TEX = pdflatex -shell-escape -interaction=nonstopmode -file-line-error
 
+.PHONY: all clean
+
 all : resume.pdf cv.pdf
 
-resume.pdf : resume.tex resources/*
+resume.pdf : resources/*
 	$(TEX) resume.tex
 
-cv.pdf : cv.tex resources/*
+cv.pdf : resources/*
 	$(TEX) cv.tex
+
+clean :
+	rm cv.pdf resume.pdf

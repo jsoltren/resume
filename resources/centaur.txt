@@ -1,0 +1,13 @@
+\textbf{Deep Learning Software Research Engineer}\\
+ Centaur Technology, Austin, TX \hfill 2019
+
+\begin{itemize} \itemsep -2pt
+
+\item Convolutional and deep neural networks research. Investigation into
+      hardware backends for various toolchains including PyTorch and
+      TensorFlow. Performance analytics for popular networks such as ResNet,
+      SSD, YOLO, Inception, FPN, LSTM.
+
+\item \textit{Technologies used: C++, C, PyTorch, TensorFlow, ONNX, gstreamer}
+
+\end{itemize}

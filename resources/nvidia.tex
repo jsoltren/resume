@@ -9,9 +9,8 @@
       \href{https://github.com/NVIDIA/vdpau-hevc-example}{stream parser}
       for H.265/HEVC video streams.
 
-\item Fixed a bug that crashed the GPU when playing back some videos.
-
-\item Fixed a race condition in the driver when initializing multiple GPUs.
+\item Fixed hundreds of bugs, including a GPU crash when playing certain videos, and
+      a race condition in the driver when initializing multiple GPUs.
 
 \item Wrote a custom debugger to use hardware watch points to catch data races without
       perturbing timing.
